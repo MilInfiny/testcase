@@ -1,0 +1,72 @@
+.bg-red
+{
+	background:red;
+	margin-bottom: 30px;
+}
+.bg-gray
+{
+	background:gray;
+    height: 1px;
+}
+.card-view
+{
+	float:right;
+	z-index:9999;
+	background:white;
+    box-shadow: -3px 2px 9px grey;
+    position: relative;
+    margin-top: -101px;
+}
+.tittle
+{
+	 font-size: 25px;
+}
+.description
+{
+	 color: gray;
+}
+.selectdiv
+{
+	border-radius: 0px;
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
+.amount
+{
+	font-weight: bold;
+	font-size: 24px;
+	margin-left: 46px;
+	position: relative;
+    top: 9px;
+}
+.quantity
+{
+	display:flex;
+}
+.pricelist
+{
+	position: relative;
+    top: 75px;
+    display: flex;
+}
+.totalamount
+{
+	font-weight: bold;
+    float: right;
+    font-size: 30px;
+    padding: 40px;
+}
+.deletestyle
+{
+	float: right;
+    position: relative;
+    top: 30px;
+    color: gray;
+}
+.deletestyle:hover i::before {
+    opacity:0.8
+}
+.view-container
+{
+	margin-top: 200px;
+}
