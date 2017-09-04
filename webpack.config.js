@@ -11,7 +11,7 @@ module.exports = {
   devServer: {
     inline: true,
     contentBase: './app',
-    port:  process.env.PORT || 8000
+    //port:  process.env.PORT || 8000
   },
   module: {
    loaders: [
